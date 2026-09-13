@@ -5,8 +5,11 @@
 1. [Installation Guide](#Installation)
 2. [About The Project](#About)
 3. [Data Insights](#Data-Insights)
-   * [1.1 Heart disease total cases](#1.1-Heart-disease-total-cases)
-   * [1.2 Heart Disease Gender based frequence](#1.2-Heart-Disease-Gender-based-frequence)
+   * [3.1 Heart disease total cases](#3.1-Heart-disease-total-cases)
+   * [3.2 Heart Disease Gender based frequence](#3.2-Heart-Disease-Gender-based-frequence)
+   * [3.3 Heart disease age distribution](#3.3-Age-Distribution)
+   * [3.4 Max Heart Rate v/s Age](#3.4-Maximum-heart-beat-Rate-V/S-Age)
+   * [3.5 Chest Pain Type heart Disease Analysis](#3.5-Chest-Pain-Type-heart-Disease-Analysis)
 
 ## Installation
 
@@ -44,16 +47,30 @@ Exploratory Data Analysis is the important part of the machine learning. As just
 
 The ML Engineer must also have the knowledge about the data below are some of the insights i caught from the data to find the pattern's bettween the data
 
-#### 1.1 Heart disease total cases 
-> **Purpose** : based on the below graph we can identify the class imbalancing in the data set that we have.
+#### 3.1 Heart disease total classes 
+> **Purpose** based on the below graph we can identify the class imbalancing in the data set that we have.
+![Class weight Graph](images/eda/001_class_weight_graph.png))
 
-![Class weight Graph](images/eda/class_weight_graph.png)
+
+#### 3.2 Heart Disease Gender based frequence
+> **Purpose** Based on the below graph we can identify the ratio of the male and female of having the heart disease.
+![Gender Based frequency](images/eda/002_gender_based_heart_disease_analysis.png)
+
+### 3.3 Age Distribution
+> **Purpose** The purpose of the graph is to find how the data is distributed and to find out is it there any outlier's
+![Age Distribution](images/eda/003_age_distribution.png)
+
+### 3.4 Maximum heart beat Rate V/S Age
+> **Purpose** Based on the below graph we can observe the pattern at what parameter based on the age and Max Heart patient are postive heart disease patient.
+![Postitive Patient](images/eda/004_thelach_age_heart_patient.png)
+
+> **Purpose** Based on the below graph we can observe the pattern at what parameter based on the age and Max Heart patient are not heart disease patient.
+![Negative Patient](images/eda/005_thelach_age_not_heart_patient.png)
 
 
-#### 1.2 Heart Disease Gender based frequence
-> **Purpose** : Based on the below graph we can identify the ratio of the male and female of having the heart disease.
-
-![Gender Based frequency](images/eda/gender_based_heart_disease_analysis.png)
+### 3.5 Chest Pain Type heart Disease Analysis
+> **Purpose** The Purpose of the graph is to find which of the chest pain type have the most affected patient and which are the negative patient based on our current dataset.
+![Chest pain heart patient analysis](images/eda/006_heart_disease_chest_pain_type.png)
 
 ## Important Disclaimer
 
