@@ -5,7 +5,7 @@
 1. [Installation Guide](#Installation)
 2. [About The Project](#About)
 3. [Data Insights](#Data-Insights)
-   * [3.1 Heart disease total cases](#3.1-Heart-disease-total-cases)
+   * [3.1 Heart disease total cases](#3.1-Heart-disease-total-classes)
    * [3.2 Heart Disease Gender based frequence](#3.2-Heart-Disease-Gender-based-frequence)
    * [3.3 Heart disease age distribution](#3.3-Age-Distribution)
    * [3.4 Max Heart Rate v/s Age](#3.4-Maximum-heart-beat-Rate-V/S-Age)
@@ -71,6 +71,10 @@ The ML Engineer must also have the knowledge about the data below are some of th
 ### 3.5 Chest Pain Type heart Disease Analysis
 > **Purpose** The Purpose of the graph is to find which of the chest pain type have the most affected patient and which are the negative patient based on our current dataset.
 ![Chest pain heart patient analysis](images/eda/006_heart_disease_chest_pain_type.png)
+
+
+### 3.6 Correlation between the individual label and the target label
+> **Purpose** The purpose of the correlation is to fin
 
 ## Important Disclaimer
 
