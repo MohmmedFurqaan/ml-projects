@@ -5,7 +5,7 @@
 1. [Installation Guide](#Installation)
 2. [About The Project](#About)
 3. [Data Insights](#Data-Insights)
-   * [3.1 Heart disease total cases](#3.1-Heart-disease-total-classes)
+   * [3.1 Heart disease total cases](#31-heart-disease-total-classes)
    * [3.2 Heart Disease Gender based frequence](#3.2-Heart-Disease-Gender-based-frequence)
    * [3.3 Heart disease age distribution](#3.3-Age-Distribution)
    * [3.4 Max Heart Rate v/s Age](#3.4-Maximum-heart-beat-Rate-V/S-Age)
