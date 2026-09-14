@@ -5,12 +5,12 @@
 1. [Installation Guide](#Installation)
 2. [About The Project](#About)
 3. [Data Insights](#Data-Insights)
-   * [3.1 Heart disease total cases](#31-heart-disease-total-classes)
+   * [3.1 Heart disease class distribution](#3.1-Heart-disease-total-classes)
    * [3.2 Heart Disease Gender based frequence](#3.2-Heart-Disease-Gender-based-frequence)
    * [3.3 Heart disease age distribution](#3.3-Age-Distribution)
    * [3.4 Max Heart Rate v/s Age](#3.4-Maximum-heart-beat-Rate-V/S-Age)
    * [3.5 Chest Pain Type heart Disease Analysis](#3.5-Chest-Pain-Type-heart-Disease-Analysis)
-
+4. [Modelling](#4.-Modelling)
 ## Installation
 
 1. clone the repository in your local directory of your machine 
@@ -84,6 +84,15 @@ The ML Engineer must also have the knowledge about the data below are some of th
 `0 (No Correlation)`: There is no linear or predictable relationship between the variables.
 
 `-1 (Perfect Negative Correlation)`: As one variable increases, the other variable decreases proportionally
+
+## 4. Modelling 
+
+**What Modelling is** 
+
+> Modelling means preapring our model to get deep dive into the model to build the model based on the [Provided Scikit learn estimator](https://scikit-learn.org/stable/machine_learning_map.html) to preare the best model.
+
+I choose the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) estimator for the [Heart Disease Predictor](https://github.com/MohmmedFurqaan/ml-projects.git) based on the below graph as the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) achieved the acuracy around 86% for the baseline model you can see it below : 
+![Sklearn Model Comparision](images/modelling/001_different_modell_score.png)
 
 ## Important Disclaimer
 
