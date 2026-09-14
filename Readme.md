@@ -74,7 +74,16 @@ The ML Engineer must also have the knowledge about the data below are some of th
 
 
 ### 3.6 Correlation between the individual label and the target label
-> **Purpose** The purpose of the correlation is to fin
+> **Purpose** The purpose of the correlation is to find the relation between the One feature vaiable with the target and other feature's present in the dataset.
+![correlation between the data](images/eda/007_heat_map_correlation.png)
+
+**Note for correlation**
+
+`1 (Perfect Positive Correlation)`: As one variable increases, the other variable increases proportionally.
+
+`0 (No Correlation)`: There is no linear or predictable relationship between the variables.
+
+`-1 (Perfect Negative Correlation)`: As one variable increases, the other variable decreases proportionally
 
 ## Important Disclaimer
 
