@@ -91,11 +91,19 @@ The ML Engineer must also have the knowledge about the data below are some of th
 
 > Modelling means preapring our model to get deep dive into the model to build the model based on the [Provided Scikit learn estimator](https://scikit-learn.org/stable/machine_learning_map.html) to preare the best model.
 
-### KNeighborsClassifier
+### 4.1 KNeighborsClassifier
 
 > After tunning the parameter's of the KNN (for parameter's negihbours), which ranges from 1 to 21 i found that it achived the `max accuracy score to the : 75.41%` which is not satisified see the below graph :
 ![Hypertunning of KNN Classifier](images/modelling/002_knn_model_tunning.png)
 
+ 
+### 4.2 RandomForestClassifier 
+> After tunning the parmaeter's for the RandomForest i got the score accracy `86.68%` then the baseline model of the RandomForeset which was `83.60%`
+
+![Randomforest Model](images/modelling/003_random_forest_score.png)
+
+### 4.3 LogisticRegression
+> After tunning the LogisticregRessor model the model reaced the `max accuracy 88.52%` which is max among all of them.
 
 I choose the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) estimator for the [Heart Disease Predictor](https://github.com/MohmmedFurqaan/ml-projects.git) based on the below graph as the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) achieved the acuracy around 88% for the baseline model you can see it below : 
 ![Sklearn Model Comparision](images/modelling/001_different_modell_score.png)
