@@ -16,6 +16,7 @@
    * [4.3 LogisticRegressor](#4.3-LogisticRegression)
 5. [Evaluating the LogisticRegression Estimator](#5.-Evaluating-the-LogisticRegression-Estimator)
    * [ROC and AUC](#5.1-ROC-and-AUC-Matrix)
+   * [Confusion Matrix](#5.2-Confusion-Matrix)
 ## Installation
 
 1. clone the repository in your local directory of your machine 
@@ -124,6 +125,10 @@ Evaluating the Machine learning model is important because we cannor depend on t
 ### 5.1 ROC and AUC Matrix
 > The ROC curve was plotted to evaluate the classification performance of the Logistic Regression model across different decision thresholds. The model achieved an AUC of 0.93, indicating strong discriminative ability between the positive and negative classes. The curve demonstrates that a relatively high TPR can be achieved while maintaining a comparatively low FPR. The appropriate classification threshold should be selected based on the application's requirements and the trade-off between false positives and false negatives.
 ![ROC and AUC Cureve](images/evaluation/001_ROC_AUC_CURVE.png)
+
+### 5.2 Confusion Matrix 
+> The Confusion matrix is evaluated to determine where our `LogisticRegression` is getting confused at the 0.5 thresholds. The model achived the **TPR 90.63%** while the **FPR is 13.79%** at the *thresholds 0.5*. In simple terms, the model correctly identifies approximately 91% of people who actually have heart disease, while incorrectly classifying approximately 14% of people without heart disease.
+![Confusion Matrix at threshold 0.5](images/evaluation/002_CNF_MATRIX.png)
 
 ## Important Disclaimer
 
