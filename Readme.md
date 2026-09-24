@@ -11,6 +11,11 @@
    * [3.4 Max Heart Rate v/s Age](#3.4-Maximum-heart-beat-Rate-V/S-Age)
    * [3.5 Chest Pain Type heart Disease Analysis](#3.5-Chest-Pain-Type-heart-Disease-Analysis)
 4. [Modelling](#4.-Modelling)
+   * [4.1 KNN Model](#4.1-KNeighborsClassifier)
+   * [4.2 Random Forest Classifier](#4.2-RandomForestClassifier)
+   * [4.3 LogisticRegressor](#4.3-LogisticRegression)
+5. [Evaluating the LogisticRegression Estimator](#5.-Evaluating-the-LogisticRegression-Estimator)
+   * [ROC and AUC](#5.1-ROC-and-AUC-Matrix)
 ## Installation
 
 1. clone the repository in your local directory of your machine 
@@ -107,6 +112,18 @@ The ML Engineer must also have the knowledge about the data below are some of th
 
 I choose the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) estimator for the [Heart Disease Predictor](https://github.com/MohmmedFurqaan/ml-projects.git) based on the below graph as the [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html) achieved the acuracy around 88% for the baseline model you can see it below : 
 ![Sklearn Model Comparision](images/modelling/001_different_modell_score.png)
+
+## 5. Evaluating the LogisticRegression Estimator
+
+Evaluating the Machine learning model is important because we cannor depend on their score produce by the estimator. So for these we can do the following Matrix :
+* [5.1 ROC and AUC matrix](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+* [5.2 Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+* [5.3 Classification Report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
+* [5.4 Precession, Recall and F1 Score](https://medium.com/@piyushkashyap045/understanding-precision-recall-and-f1-score-metrics-ea219b908093)
+
+### 5.1 ROC and AUC Matrix
+> The ROC curve was plotted to evaluate the classification performance of the Logistic Regression model across different decision thresholds. The model achieved an AUC of 0.93, indicating strong discriminative ability between the positive and negative classes. The curve demonstrates that a relatively high TPR can be achieved while maintaining a comparatively low FPR. The appropriate classification threshold should be selected based on the application's requirements and the trade-off between false positives and false negatives.
+![ROC and AUC Cureve](images/evaluation/001_ROC_AUC_CURVE.png)
 
 ## Important Disclaimer
 
