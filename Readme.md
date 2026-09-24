@@ -27,10 +27,10 @@ git clone https://github.com/MohmmedFurqaan/ml-projects.git
 
 2. Let's setup the envinoment
 
-In the project root directory, You will find the `envirnoment.yml` file. These file contains the envirnoment dependencies you can setup the envirnoment by the following :
+In the project root directory, You will find the `project_config.yml` file. These file contains the envirnoment dependencies you can setup the envirnoment by the following :
 
 ```code 
-conda env create -f environment.yml
+conda env create -f project_config.yml
 ```
 
 Then 

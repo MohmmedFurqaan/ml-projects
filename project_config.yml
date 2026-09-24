@@ -1,0 +1,14 @@
+name: project_heart_disease
+channels:
+  - defaults
+dependencies:
+  - python=3.14
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - seaborn
+  - ipykernel
+  - pandas
+  - scipy
+  - scikit-learn
+
