@@ -143,10 +143,11 @@ Evaluating the Machine learning model is important because we cannor depend on t
 
 ### 5.2 Confusion Metrics 
 > The Confusion Metrics is evaluated to determine where our `LogisticRegression` is getting confused at the 0.5 thresholds. The model achived the **TPR 90.63%** while the **FPR is 13.79%** at the *thresholds 0.5*. In simple terms, the model correctly identifies approximately 91% of people who actually have heart disease, while incorrectly classifying approximately 14% of people without heart disease.
-![Confusion Metrics at threshold 0.5](images/evaluation/002_CNF_Metrics.png)
+![Confusion Metrics at threshold 0.5](images/evaluation/002_CNF_MATRIX.png)
 
 ### 5.3 Classfication Report 
 > The Below classifictio report is created from the Testing data set.
+
 |           | 0     | 1     | accuracy   | macro avg   | weighted avg   |
 |:----------|:------|:------|:-----------|:------------|:---------------|
 | precision | 89.3% | 87.9% | 88.5%      | 88.6%       | 88.5%          |
