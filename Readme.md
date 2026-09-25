@@ -1,4 +1,16 @@
-# Heart Disease Prediction
+# CardioSense — Heart Disease Classification & Risk Analysis
+
+<div align="center">
+
+![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+
+![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+
+</div>
 
 ## Table of content
 
@@ -15,8 +27,9 @@
    * [4.2 Random Forest Classifier](#4.2-RandomForestClassifier)
    * [4.3 LogisticRegressor](#4.3-LogisticRegression)
 5. [Evaluating the LogisticRegression Estimator](#5.-Evaluating-the-LogisticRegression-Estimator)
-   * [ROC and AUC](#5.1-ROC-and-AUC-Matrix)
-   * [Confusion Matrix](#5.2-Confusion-Matrix)
+   * [5.1 ROC and AUC](#5.1-ROC-and-AUC-Metrics)
+   * [5.2 Confusion Metrics](#5.2-Confusion-Metrics)
+   * [5.3 Classification Report](#5.3-Classfication-Report)
 ## Installation
 
 1. clone the repository in your local directory of your machine 
@@ -38,6 +51,8 @@ Then
 ```code
 conda activate my_ml_env
 ```
+
+Replace with your's environment 
 
 ## About 
 
@@ -116,19 +131,29 @@ I choose the [Logistic Regression](https://scikit-learn.org/stable/modules/gener
 
 ## 5. Evaluating the LogisticRegression Estimator
 
-Evaluating the Machine learning model is important because we cannor depend on their score produce by the estimator. So for these we can do the following Matrix :
-* [5.1 ROC and AUC matrix](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
-* [5.2 Confusion Matrix](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_matrix.html)
+Evaluating the Machine learning model is important because we cannor depend on their score produce by the estimator. So for these we can do the following Metrics :
+* [5.1 ROC and AUC Metrics](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
+* [5.2 Confusion Metrics](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.confusion_Metrics.html)
 * [5.3 Classification Report](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.classification_report.html)
 * [5.4 Precession, Recall and F1 Score](https://medium.com/@piyushkashyap045/understanding-precision-recall-and-f1-score-metrics-ea219b908093)
 
-### 5.1 ROC and AUC Matrix
+### 5.1 ROC and AUC Metrics
 > The ROC curve was plotted to evaluate the classification performance of the Logistic Regression model across different decision thresholds. The model achieved an AUC of 0.93, indicating strong discriminative ability between the positive and negative classes. The curve demonstrates that a relatively high TPR can be achieved while maintaining a comparatively low FPR. The appropriate classification threshold should be selected based on the application's requirements and the trade-off between false positives and false negatives.
 ![ROC and AUC Cureve](images/evaluation/001_ROC_AUC_CURVE.png)
 
-### 5.2 Confusion Matrix 
-> The Confusion matrix is evaluated to determine where our `LogisticRegression` is getting confused at the 0.5 thresholds. The model achived the **TPR 90.63%** while the **FPR is 13.79%** at the *thresholds 0.5*. In simple terms, the model correctly identifies approximately 91% of people who actually have heart disease, while incorrectly classifying approximately 14% of people without heart disease.
-![Confusion Matrix at threshold 0.5](images/evaluation/002_CNF_MATRIX.png)
+### 5.2 Confusion Metrics 
+> The Confusion Metrics is evaluated to determine where our `LogisticRegression` is getting confused at the 0.5 thresholds. The model achived the **TPR 90.63%** while the **FPR is 13.79%** at the *thresholds 0.5*. In simple terms, the model correctly identifies approximately 91% of people who actually have heart disease, while incorrectly classifying approximately 14% of people without heart disease.
+![Confusion Metrics at threshold 0.5](images/evaluation/002_CNF_Metrics.png)
+
+### 5.3 Classfication Report 
+> The Below classifictio report is created from the Testing data set.
+|           | 0     | 1     | accuracy   | macro avg   | weighted avg   |
+|:----------|:------|:------|:-----------|:------------|:---------------|
+| precision | 89.3% | 87.9% | 88.5%      | 88.6%       | 88.5%          |
+| recall    | 86.2% | 90.6% | 88.5%      | 88.4%       | 88.5%          |
+| f1-score  | 87.7% | 89.2% | 88.5%      | 88.5%       | 88.5%          |
+| support   | 29    | 32    | 88.5%      | 61          | 61             |
+
 
 ## Important Disclaimer
 
