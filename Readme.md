@@ -30,6 +30,8 @@
    * [5.1 ROC and AUC](#5.1-ROC-and-AUC-Metrics)
    * [5.2 Confusion Metrics](#5.2-Confusion-Metrics)
    * [5.3 Classification Report](#5.3-Classfication-Report)
+   * [5.4 Cross validation for accuracy, precission, recall and f1 score](#5.5-Cross-validation-for-Accuracy,-precsission,-recall-and-f1-score)
+
 ## Installation
 
 1. clone the repository in your local directory of your machine 
@@ -154,6 +156,16 @@ Evaluating the Machine learning model is important because we cannor depend on t
 | f1-score  | 87.7% | 89.2% | 88.5%      | 88.5%       | 88.5%          |
 | support   | 29    | 32    | 88.5%      | 61          | 61             |
 
+### 5.5 Cross validation for Accuracy, precsission, recall and f1 score
+> These metrics is measured up from the complete data-set (Training + Testing dataset). The model achived below accuracy, precession, recall and f1-score :
+
+|                 |   Accuracy |   Precission |   Recall |   F1 score |
+|:----------------|-----------:|-------------:|---------:|-----------:|
+| Score Indicator |   0.831585 |     0.823989 | 0.884848 |   0.852127 |
+
+
+> The Visual formate is below :
+![Cros validated metrics](images/evaluation/003_CV_METRICS.png)
 
 ## Important Disclaimer
 
